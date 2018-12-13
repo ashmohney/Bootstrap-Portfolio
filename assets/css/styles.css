@@ -1,9 +1,21 @@
-#wrapper {
-    margin-bottom: 75px;
+body #wrapper {
+    min-height: 100vh;
 }
 
+.flex-fill {
+    flex:1 1 auto;
+ }
 
+ .jumbotron img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
 
-#footer {
-    line-height: 20px; 
-}   
+#portfolioHeader {  
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}

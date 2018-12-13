@@ -15,7 +15,7 @@
 
 
 <body>
-    <div id="wrapper">
+    <div id="wrapper" class="d-flex flex-column">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand text-info" href="index.html">Ash Mohney</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContentLinks" aria-controls="navbarContentLinks" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,20 +37,27 @@
             </div>
     </nav>
 
-     <div class="card-body">
+    <div class="card-body flex-fill">
         <div class="container">
             <div class="row">
                 <br>
             </div>
             <div class="jumbotron">
-                <div class="row">
                     <form>
-                        <p>
-                            Looking for forms here.
-                        </p>
+                        <div class="form-group row col-12">
+                            <label for="nameInput">Name</label>
+                            <input type="text" class="form-control" id="nameInput" placeholder="First Last">
+                        </div>
+                        <div class="form-group row col-12">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group row col-12">
+                            <label for="contactTextarea">Message</label>
+                            <textarea class="form-control" id="contactTextarea" rows="7"></textarea>
+                        </div>
                     </form>
                 </div>
-            </div>
         </div>
     </div>
     </div>
